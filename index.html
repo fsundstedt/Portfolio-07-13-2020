@@ -9,6 +9,7 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -27,9 +28,12 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <hr class="m-0" />
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./Resume-Frank-Sundstedt.pdf" download target="_blank">Download Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -48,8 +52,8 @@
                     </div>
                     <p class="lead mb-5">My name is Frank Sundstedt, and I'm a software developer. I'm happiest when I'm developing, building, creating, concocting, or experimenting. Enjoy my site!</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://linkedin.com/in/frank-sundstedt-0b1065105"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/fsundstedt/"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://linkedin.com/in/frank-sundstedt-0b1065105" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/fsundstedt/" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
@@ -60,32 +64,117 @@
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Technologies</div>
                     <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
                         <li class="list-inline-item"><i class="fab fa-react"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-database"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    <div class="subheading mb-3">Processes and Experiences</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
+                            Full-Stack Development e.g. React, Express, PostgreSQL
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
+                            Remote Collaboration e.g. Git, Github
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
+                            Debugging e.g. Chrome DevTools
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
+                            Team-Oriented Programming e.g. Paired-Programming, Team Projects
                         </li>
                     </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <!-- Project 1 -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">AppTrack</h3>
+                            <p className="is-italic has-text-centered">
+                                AppTrack is a way for you to keep up with the jobs you have applied for. In addition to keeping track, we let you give feedback about the interview experience. 
+                                For example: was there whiteboarding or a code challenge? Was the interview easy or difficult? We let you provide us with details on your experience to help others.
+                                <br />
+                                <br />
+                                Once a user is signed up to use the service, they can review the history of other users job applications and interviews as well as input their own applications and 
+                                interviews. Not only does this make keeping up with where you have applied easier, it also gives you access to information from others. It is a great way to manage your
+                                applications and interviews and keep track of whom to contact at the companies you have interviewed with.
+                            </p>
+                            <div class="subheading mb-3">
+                                <h4>Technical Features</h4>
+                                <ul >
+                                    <li>Front end built with React framework</li>
+                                    <li>Back end built with Express, pg-promise, and PostgreSQL</li>
+                                    <li>Utilizes both class-based and functional components</li>
+                                    <li>Designed with React styled components</li>
+                                    <li>Uses bcrypt for password processing</li>
+                                </ul>
+                            </div>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://github.com/fsundstedt/Application-tracker-frontend" target="_blank"><i class="fab fa-github"></i></a>
+                                <a class="social-icon" href="https://app-track.netlify.app/" target="_blank"><i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 project-image-div"><span class="text-primary"><div><img class="project-image" src="assets/img/Capstone-Screenshot2.gif" alt="Project Image"/></div></span></div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Amortization Calculator</h3>
+                            <p className="is-italic has-text-centered">
+                                Amortization Calculator does just that: calculates and displays amortization schedules, as well as some relevant metrics such as total interest paid,
+                                monthly payment, and more. Users simply input their principal, rate, and term (in months; rate will be compounded monthly) in the appropriate boxes, click the
+                                "Show Amortization Schedule" button, and scroll through the generated schedule of payments.
+                            </p>
+                            <div class="subheading mb-3">
+                                <h4>Technical Features</h4>
+                                <ul >
+                                    <li>Built with React framework</li>
+                                    <li>Utilizes both class-based and functional components</li>
+                                    <li>Designed with React styled components</li>
+                                </ul>
+                            </div>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://github.com/fsundstedt/amort-calculator-04-13-2020" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 project-image-div"><span class="text-primary"><div><img class="project-image" src="assets/img/Amort-Screenshot.png" alt="Project Image"/></div></span></div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">PokéFind</h3>
+                            <p className="is-italic has-text-centered">
+                                Pokéfind is an application that provides statistics on every Pokemon character to date.
+                                It utilizes a search bar and has the option to randomly select a character.
+                            </p>
+                            <div class="subheading mb-3">
+                                <h4>Technical Features</h4>
+                                <ul >
+                                    <li>Uses JavaScript Fetch functionality to manage responses</li>
+                                    <li>Connects to the PokéAPI site through multiple channels</li>
+                                    <li>Utilizes jQuery for DOM manipulation</li>
+                                    <li>Designed with Bootstrap framework</li>
+                                </ul>
+                            </div>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://github.com/fsundstedt/Pokefind" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 project-image-div"><span class="text-primary"><div><img class="project-image" src="assets/img/FE-Screenshot.gif" alt="Project Image"/></div></span></div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
@@ -95,35 +184,38 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 class="mb-0">Senior Analyst</h3>
+                            <div class="subheading mb-3">SitusAMC</div>
+                            <ul>
+                                <li>Underwrote numerous office, multi-family, retail, industrial, and hotel properties for CMBS securitization ranging in size from $5 million to $40+ million</li>
+                                <li>Worked in a directly client-facing capacity</li>
+                                <li>Solely responsible for creating a metric reporting system that ultimately resulted in maintained compliance withfederal regulations, thereby preventing the invalidation of a major client contract</li>
+                                <li>Used Excel and VBA to automate the calculation of property break-even metrics</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - November 2018</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <h3 class="mb-0">Analyst</h3>
+                            <div class="subheading mb-3">The Sterling Organization</div>
+                            <ul>
+                                <li>Underwrote both stabilized and value-add retail properties</li>
+                                <li>Conducted due diligence for several acquisitions</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2018 - December 2019</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h3 class="mb-0">Project Coordinator Intern</h3>
+                            <div class="subheading mb-3">Sensus Analytics</div>
+                            <ul>
+                                <li>Worked directly with clients, distributors, and developers to coordinate analytics-based software projects</li>
+                                <li>Discovered and corrected critical errors in 48 projects with a combined value of over $260,000</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2016 - May 2017</span></div>
                     </div>
                 </div>
             </section>
@@ -134,20 +226,18 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <h3 class="mb-0">DigitalCrafts</h3>
+                            <div class="subheading mb-3">Certificate of Completion</div>
+                            <div>Immersive Software Engineering Program</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2020 - May 2020</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
+                            <h3 class="mb-0">Emory University</h3>
+                            <div class="subheading mb-3">Bachelor's of Business and Administration</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2013 - May 2017</span></div>
                     </div>
                 </div>
             </section>
@@ -156,8 +246,15 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p>
+                        When not writing/debugging code, I spend much of my time cooking, eating, and thinking of food. I keep a list of (IMHO) the best bars and restaurants in Atlanta, and am always looking for new additions. 
+                        I have strong opinions on the best BBQ in the area, and am very enthusiastic about several local cocktail programs. My newest source of culinary inspiration is coffee; my go-to brew is currently a 
+                        Vietnamese pourover with 30g coarse dark roast coffee, a sprinkle of salt, and 230g of water.
+                    </p>
+                    <p class="mb-0">
+                        Apart from eating and drinking, I have somewhat of a gaming streak, and can't resist playing the latest and greatest battle royale game. Not too many victories on my profiles, but as long as I'm having 
+                        fun routinely placing 27th I see no harm in playing. Every so often I also hop on Old School RuneScape for a moderate dose of nostalgia (I first played when I was 12. Wc lvl, anyone?).
+                    </p>
                 </div>
             </section>
             <hr class="m-0" />
